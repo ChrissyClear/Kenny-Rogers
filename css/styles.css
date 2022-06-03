@@ -2,3 +2,48 @@ body {
     background: rgb(170, 5, 80);
     background: linear-gradient(90deg, rgba(170, 5, 80, 1) 0%, rgba(142, 170, 11, 1) 50%, rgba(196, 132, 41, 1) 100%);
 }
+
+.container {
+    width: 1000px;
+    height: 100%;
+}
+
+nav {
+    background-color: rgb(88, 86, 86);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+
+}
+
+ul li {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(12, 12, 12);
+    display: inline-block;
+    margin-top: 6%;
+    margin-right: 10px;
+    padding: 10px;
+    box-shadow: 4px 8px 10px rgb(13, 110, 253);
+}
+
+ul li a {
+    color: rgb(13, 110, 253);
+    text-decoration: none;
+}
+
+ul li:hover {
+    background-color: rgb(39, 11, 39);
+}
+
+ul li a:hover {
+    color:white;
+}
