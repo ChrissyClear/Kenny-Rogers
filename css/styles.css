@@ -107,3 +107,24 @@ h4 {
     font-size: 12px;
     padding-left: 40px;
 }
+
+/* footer */
+footer {
+    background-color: rgb(10, 10, 10, 0.2);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    height: 50px;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-youtube {
+    color: rgb(240, 248, 255);
+    padding-right: 5px;
+    margin-top: 10px;
+}
+
+.float-right {
+    float: right;
+    margin-top: -46px;
+}
