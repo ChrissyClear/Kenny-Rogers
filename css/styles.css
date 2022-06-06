@@ -8,8 +8,8 @@ body {
     height: 100%;
 }
 
-nav {
-    background-color: rgb(10, 10, 10, 0.2);
+.navbar {
+    background: rgb(10, 10, 10, 0.2) url("../img/kenny\ rogers\ logo.jpg") no-repeat right;
     position: sticky;
     top: 0;
     left: 0;
@@ -17,11 +17,12 @@ nav {
     margin-bottom: 20px;
     font-family: 'Times New Roman', Times, serif;
     padding: 5px;
+    height: 150px;
 }
 
 ul {
     list-style-type: none;
-    float: right;
+    margin-top: -15%;
 
 }
 
