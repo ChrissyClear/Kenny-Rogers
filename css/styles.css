@@ -64,6 +64,14 @@ article {
     margin-top: -20px;
 }
 
+/* jumbotron */
+
+.jumbotron {
+    background: rgb(12, 12, 12) url("../img/jumbotron.webp") no-repeat center;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
 /*cards  */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
