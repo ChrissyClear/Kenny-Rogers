@@ -28,12 +28,12 @@ ul {
 
 ul li {
     background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(12, 12, 12);
+    border: 6px double rgb(12, 12, 12);
     display: inline-block;
     margin-top: 6%;
     margin-right: 10px;
     padding: 10px;
-    box-shadow: 4px 8px 10px rgb(13, 110, 253);
+    box-shadow: 4px 8px 10px rgb(12, 12, 12);
 }
 
 ul li a {
