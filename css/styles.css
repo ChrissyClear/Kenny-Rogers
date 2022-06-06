@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: rgb(240, 248, 255);
 }
 
 .container {
@@ -9,8 +9,8 @@ body {
 }
 
 .navbar {
-    border-color: rgb(10, 10, 10, 0.2);
-    background: rgb(10, 10, 10, 0.2) url("../img/kenny\ rogers\ logo.jpg") no-repeat right;
+    border-color: rgb(12, 12, 12, 0.2);
+    background: rgb(12, 12, 12, 0.2) url("../img/kenny\ rogers\ logo.jpg") no-repeat right;
     /* background-size: cover; */
     position: sticky;
     top: 0;
@@ -29,7 +29,7 @@ ul {
 }
 
 ul li {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 248, 255);
     border: 6px double rgb(12, 12, 12);
     display: inline-block;
     margin-top: 6%;
@@ -44,11 +44,11 @@ ul li a {
 }
 
 ul li:hover {
-    background-color: rgb(39, 11, 39);
+    background-color: rgba(12, 12, 12, 0.5);
 }
 
 ul li a:hover {
-    color: white;
+    color: rgb(240, 248, 255);
 }
 
 header {
@@ -63,7 +63,6 @@ article {
 
 .cushion {
     margin-bottom: 70px;
-    margin-top: -20px;
 }
 
 /* jumbotron */
@@ -76,7 +75,7 @@ article {
 
 /*cards  */
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(12, 12, 12, 0.2);
     transition: 0.3s;
     width: 200px;
     height: 350px;
@@ -85,7 +84,7 @@ article {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(12, 12, 12, 0.2);
 }
 
 .container-card {
@@ -121,7 +120,7 @@ h4 {
 
 /* footer */
 footer {
-    background-color: rgb(10, 10, 10, 0.2);
+    background-color: rgb(12, 12, 12, 0.2);
     font-family: 'Times New Roman', Times, serif;
     padding: 5px;
     height: 50px;
@@ -146,5 +145,5 @@ footer {
 }
 
 .center:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(12, 12, 12);
 }
