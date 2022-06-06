@@ -8,8 +8,12 @@ body {
     height: 100%;
 }
 
+/* commented .narbar, i wanted to put a shadow or box around the picture */
+/* .navbar { box-shadow: 0px 8px 8px -6px rgba (0,0,0,.5); } */
+
 .navbar {
     background: rgb(10, 10, 10, 0.2) url("../img/kenny\ rogers\ logo.jpg") no-repeat right;
+    /* box-shadow: 0px 8px 8px -6px rgba (0,0,0,.5); */
     position: sticky;
     top: 0;
     left: 0;
